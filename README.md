@@ -18,15 +18,15 @@ In our offloading framework, the cloud runtime is not VM or JVM. We use OS-level
 # Composition
 The *Rattrap* project here is composed of 2 parts. The details can be found in README of the 2 folders. 
 
-##Runtime
+## Runtime
 
 Runtime shows how to build *Rattrap* with an existing cloud server.
 
-##Framework
+## Framework
 
 Framework consists of the code offloading frameworks and our 6 workloads which have been adopted to *Rattrap*.
 
-#How to cite#
+## How to cite
 
 *Rattrap* is built for comparison with current cloud platform based on VM.  If you are using it for your research, please do not forget to cite. （Song Wu, Chao Niu, Jia Rao, Hai Jin and Xiaohai Dai, “Container-Based Cloud Platform for Mobile Computation Offloading”, in Proceedings of IPDPS’17）
 
