@@ -4,10 +4,10 @@ The patch is based on the android-x86 git version. The original git code can be 
 
 The .config file is the kernel configuration when you compile the kernel extension.
 
-#Build#
+## Build
 
 Download the Android-x86 source into your directory.
-    
+​    
     $ repo init -u git://gitscm.sf.net/gitroot/android-x86/manifest -b android-x86-4.4-r2
     $ repo sync
 
@@ -17,7 +17,7 @@ Apply the rattrap.patch.
 
 Copy .config file into the kernel folder and buid it. After the kernel build, you can either install it or just install the kernel modules.
 
-#Create#
+## Create
 
 The rootfs.tar.gz is the root filesystem of *Cloud Android Container*. The newlxc.py script and rootfs.tar.gz together create individual *Cloud Android Container*.
 
