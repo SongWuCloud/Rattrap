@@ -83,7 +83,7 @@ apt-get install build-essential \
 
 
 
-We also provide a [dockerfile](https://github.com/SongWuCloud/Rattrap/blob/master/Runtime/Dockerfile) for 32 bit Android-x86 Kernel build environment. Before compiling kernel, copy the [.config](https://github.com/SongWuCloud/Rattrap/blob/master/Runtime/.config) file into the  `$KITKAT-x86/kernel/arch/x86/configs` folder and rename it (suppose the name of your configure file is my_config), and then build it with following commands.
+We also provide a [dockerfile](https://github.com/CGCL-codes/Rattrap/blob/master/tools/Dockerfile) for 32 bit Android-x86 Kernel build environment. Before compiling kernel, copy the [.config](https://github.com/SongWuCloud/Rattrap/blob/master/Runtime/.config) file into the  `$KITKAT-x86/kernel/arch/x86/configs` folder and rename it (suppose the name of your configure file is my_config), and then build it with following commands.
 
 ```
 . build/envsetup.sh
