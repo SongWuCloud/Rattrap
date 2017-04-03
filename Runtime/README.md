@@ -7,14 +7,13 @@ The .config file is the kernel configuration when you compile the kernel extensi
 ## Build
 
 Download the Android-x86 source into your directory.
-​    
+
     $ repo init -u git://gitscm.sf.net/gitroot/android-x86/manifest -b android-x86-4.4-r2
     $ repo sync
 
 Apply the rattrap.patch.
 
     $ patch -p1 < rattrap.patch
-
 Copy .config file into the kernel folder and buid it. After the kernel build, you can either install it or just install the kernel modules.
 
 ## Create
