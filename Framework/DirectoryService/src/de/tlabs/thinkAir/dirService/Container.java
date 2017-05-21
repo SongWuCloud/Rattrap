@@ -360,7 +360,7 @@ public class Container implements Serializable {
 	public boolean createContainer() {
 
 		//String out = executeCommand("VBoxManage startvm " + this.name + " --type headless");
-		String out = executeCommand("newlxc -n " + this.name + " --ip=" + this.ip);
+		String out = executeCommand("/root/newlxc.py -n " + this.name + " --ip=" + this.ip);
 
 		if (out.isEmpty()) 
 			return true;
