@@ -364,7 +364,7 @@ public class PhoneHandler implements Runnable {
 			this.conoos.writeObject(appName);
 			
 			//see if the runtime needs apk. In container case, this will always be no need.
-			int needApk = this.conis.read();
+//			int needApk = this.conis.read();
 /*			if(needApk == ControlMessages.APK_REQUEST || true){
 				sendApk("/root/cloneroot/off-app/org.witness.sscphase1.apk", this.conoos);
 			}*/
