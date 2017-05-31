@@ -17,7 +17,7 @@ In our offloading framework, the cloud runtime is not VM or JVM. We use OS-level
 
 # 2. How to use
 
-We provide a detailed description of the [document](https://github.com/SongWuCloud/Rattrap/blob/master/docs/CAC.md) to you. This document describes how to set up and run Android OS in the ordinary Linux Containers. You can set up your own Android container according the documentation.
+We provide a detailed description of the [document](https://github.com/SongWuCloud/Rattrap/blob/master/docs/CAC.md) for you. This document describes how to set up and run Android OS in the ordinary Linux Containers. You can set up your own Android container according the documentation.
 
 # 3. How to cite
 
